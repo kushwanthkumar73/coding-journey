@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #f8fafc, #e2e8f0);
+    padding: 30px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #2d3748;
+}
+
+.word-cloud-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    min-height: 300px;
+    transition: transform 0.3s ease;
+}
+
+#wordsContainer {
+    min-height: 200px;
+    border: 2px dashed #cbd5e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#wordsContainer span {
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+    animation: popIn 0.4s ease;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+#wordsContainer span:hover {
+    transform: scale(1.2);
+    background-color: #edf2f7;
+}
+
+@keyframes popIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.user-input {
+    width: 250px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.add-btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+.error-msg {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-style: italic;
+    color: #4a5568;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.converter-container {
+    background-color: #121212;
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.convert-btn {
+    padding: 10px 16px;
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.convert-btn:hover {
+    background-color: #dddddd;
+}
+
+.result-text {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #4caf50;
+}
+
+.error-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ff4c4c;
+}
