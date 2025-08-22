@@ -1,4 +1,4 @@
-# Day 1 – Number Problems
+# Day 3 – Number Problems
 
 This folder contains **7 number-related problems** solved using **Python/Java/JavaScript/C**.  
 These problems help strengthen basic programming and logical thinking skills.
