@@ -1,0 +1,28 @@
+function ArithmeticOperations(firstNumber, secondNumber) {
+  this.firstNumber = firstNumber;
+  this.secondNumber = secondNumber;
+}
+
+// prototype methods
+ArithmeticOperations.prototype.ratioOfNumbers = function () {
+  return this.firstNumber / this.secondNumber;
+};
+
+ArithmeticOperations.prototype.sumOfCubesOfNumbers = function () {
+  return this.firstNumber ** 3 + this.secondNumber ** 3;
+};
+
+ArithmeticOperations.prototype.productOfSquaresOfNumbers = function () {
+  return this.firstNumber ** 2 * this.secondNumber ** 2;
+};
+
+function main() {
+  const firstNumber = JSON.parse(readLine());
+  const secondNumber = JSON.parse(readLine());
+
+  const operation1 = new ArithmeticOperations(firstNumber, secondNumber);
+
+  console.log(operation1.ratioOfNumbers());
+  console.log(operation1.sumOfCubesOfNumbers());
+  console.log(operation1.productOfSquaresOfNumbers());
+}
