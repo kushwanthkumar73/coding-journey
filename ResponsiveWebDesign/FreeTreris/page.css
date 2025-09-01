@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.heading {
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.tetris-step {
+    font-family: "Roboto";
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.step-number {
+    font-size: 16px;
+    font-family: "Roboto";
+    text-align: center;
+    margin: 10px;
+}
+
+.tetris-blocks {
+    font-size: 0px;
+    background-image: url("https://assets.ccbp.in/frontend/content/intermediate-rwd/tetris-background-image.png");
+    background-size: cover;
+    width: 232px;
+    height: 500px;
+}
+
+.tetris-block {
+    width: 39px;
+}
+
+.tetris-container {
+   display: flex;
+   justify-content: center;
+}
+
+.tetris-1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tetris-2 {
+    display: flex;
+   align-items: center;
+}
+
+.tetris-3 {
+    display: flex;
+   align-items: flex-end;
+}

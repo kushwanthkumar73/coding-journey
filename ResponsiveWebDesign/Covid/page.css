@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(#fad0c4, #ffd1ff);
+}
+
+.precautions-container {
+    min-width: 500px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 2px;
+}
+
+.heading {
+    font-family:"Roboto";
+    text-align: center;
+}
+
+.precaution {
+   background-color: #fecaca;
+   max-height:70px;
+   overflow-y: auto;
+}
