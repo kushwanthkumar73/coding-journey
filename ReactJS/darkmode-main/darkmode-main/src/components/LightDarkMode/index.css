@@ -1,0 +1,44 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.dark-container {
+  background-color: #000000;
+}
+
+.light-container {
+  background-color: #ffffff;
+}
+
+.dark-heading {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.light-heading {
+  color: #000000;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.light-container .button {
+  background-color: #000000;
+  color: #ffffff;
+}
