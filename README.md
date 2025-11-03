@@ -30,9 +30,9 @@ This repository tracks:
 
 1. ✅ Complete **Responsive Web Design projects**  
 2. ✅ JavaScript fundamentals + projects  
-3. ⏳ SQL projects (Student/Health Management Systems)  
-4. 🔜 MERN full-stack projects (Expense Tracker, Blog App, Auth System)  
-5. 🔜 Python projects (Chatbot, Word Cloud, Personal Assistant)  
+3. ✅ SQL projects (Student/Health Management Systems)  
+4. ✅ Backend projects (Twitter Clone,TodoList)  
+5. ✅ React projects
 6. 🔜 DSA practice (150+ problems in Java/Python)  
 
 ---
@@ -44,7 +44,7 @@ This repository tracks:
 - ⏱️ **Speed Typing Test** (HTML, CSS, JS)  
 - 📚 **Library Management System** (SQL + JS)  
 - 🌤️ **Weather App** (API + JS)  
-- 💸 **Expense Tracker** (MERN Full Stack – in progress)  
+- 💸 **Twitter Clone** (Node.js Backend)  
 
 ---
 
