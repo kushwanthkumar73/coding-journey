@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.songs-heading-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  height: 30vh;
+}
+
+.songs-list-card {
+  background-color: #152850;
+  padding: 30px;
+  height: 70vh;
+  overflow: auto;
+}
+
+.songs-list-item-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.search-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px #cbd5e1 solid;
+  width: fit-content;
+  padding: 5px;
+}
+
+.songs-list-item-card {
+  list-style-type: none;
+  overflow: auto;
+}
+.song-image-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+.song-image {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  padding-left: 40px;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  box-shadow: 0;
+  outline: none;
+  color: #ffffff;
+}
+
+.search-icon {
+  color: #ffffff;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.no-song-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.delete-icon {
+  color: #ffffff;
+}

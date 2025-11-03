@@ -1,0 +1,22 @@
+.list-item {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.active {
+  background-color: #db1c48;
+  border-width: 0px;
+  color: #ffffff;
+}
+.no-active {
+  border-color: #db1c48;
+  color: #db1c48;
+  border: solid;
+}
+.button {
+  height: 30px;
+  width: 80px;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+}

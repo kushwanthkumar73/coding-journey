@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  min-height: 100vh;
+}
+.heading {
+  color: #000000;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+.languageButton-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.greetingImage {
+  width: 15%;
+  margin-top: 30px;
+}
