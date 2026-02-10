@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+class EvenOdd {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a Number: ");
+        int n = sc.nextInt();
+        int num=1;
+        for(;num<=n;num++){
+            if(num%2==0){
+                System.out.println(num);
+            }
+        }
+    }
+}
